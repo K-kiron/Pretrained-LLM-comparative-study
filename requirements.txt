@@ -1,0 +1,19 @@
+# This file can be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+
+transformers[torch]
+transformers==4.36.2
+datasets==2.16.1
+accelerate==0.26.1
+bitsandbytes==0.42.0
+causal-conv1d>=1.2.0
+mamba-ssm
+bitsandbytes
+os
+numpy
+pandas
+tqdm
+peft
+sklearn
+huggingface_hub
+typing
